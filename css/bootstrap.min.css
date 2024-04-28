@@ -3057,6 +3057,10 @@ textarea.form-control-lg {
     font-size: 1.25rem;
     white-space: nowrap;
 }
+.footer .navbar-brand img {
+    max-height: 2.7em; /* Ajusta la altura máxima del logo */
+    margin-right: 0.5em; /* Añade un margen derecho para separar el logo del texto */
+}
 .navbar-nav {
     display: flex;
     flex-direction: column;
