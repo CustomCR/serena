@@ -216,8 +216,10 @@ kbd kbd {
 figure {
     margin: 0 0 1rem;
 }
+
 img, svg {
     vertical-align: middle;
+   
 }
 table {
     caption-side: bottom;
@@ -6057,8 +6059,13 @@ textarea.form-control-lg {
     background-color: #C2C2FF !important;
 }
 .bg-secondary {
-    background-color: #8a91ac !important;
+    background-color: #454580 !important;
 }
+
+.bg-terciary {
+    background-color: #9B9BCC !important;
+}
+
 .bg-success {
     background-color: #198754 !important;
 }
