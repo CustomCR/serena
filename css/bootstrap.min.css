@@ -4,7 +4,17 @@
 .icon-color-dark {
     color: #000;
 }
-
+#submitButton{
+    background-color: #9B9BCC !important;
+    border-color: #9B9BCC !important;
+}
+#submitButton:hover{
+    background-color: #7d7da5 !important;
+    border-color: #7d7da5 !important;
+}
+#submitButton:focus{
+    box-shadow: 0 0 0 3px #9B9BCC;
+}
 
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
