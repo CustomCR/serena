@@ -22,7 +22,13 @@
 .img-fluid:hover {
     transform: scale(1.1); /* Cambia el valor de escala según lo necesites */
 }
-
+.form-txt {
+    color: #7171b4 !important;
+    text-decoration-line: underline;
+}
+.form-txt:hover {
+    color: #79799e !important;
+}
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

@@ -76,7 +76,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
                 <a href="index.html" class="navbar-brand d-lg-none">
-                    <h1 class="text-primary m-0">Lab<span class="text-dark">sky</span></h1>
+                    <img src="svg/isotipo.svg" alt="Logo Serena" height="60px" width="60px" class="img-fluid">
                 </a>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">
@@ -251,17 +251,18 @@
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="nombreCompleto" type="text" placeholder="Nombre Completo" data-sb-validations="required" />
                                 <label for="nombreCompleto">Nombre Completo</label>
-                                <div class="invalid-feedback" data-sb-feedback="nombreCompleto:required">Nombre Completo is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="nombreCompleto:required">Nombre Completo es requerido.</div>
                             </div>
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="correoElectronico" type="text" placeholder="Correo electrónico" data-sb-validations="required" />
-                                <label for="correoElectronico">Correo electrónico</label>
-                                <div class="invalid-feedback" data-sb-feedback="correoElectronico:required">Correo electrónico is required.</div>
+                                <input class="form-control" id="correoElectronico" type="email" placeholder="Correo Electrónico" data-sb-validations="required,email" />
+                                <label for="correoElectronico">Correo Electrónico</label>
+                                <div class="invalid-feedback" data-sb-feedback="correoElectronico:required">Correo Electrónico es requerido.</div>
+                                <div class="invalid-feedback" data-sb-feedback="correoElectronico:email">El correo electrónico no es válido.</div>
                             </div>
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="numeroTelefonico506" type="text" placeholder="Número telefónico (+506)" data-sb-validations="required" />
                                 <label for="numeroTelefonico506">Número telefónico (+506)</label>
-                                <div class="invalid-feedback" data-sb-feedback="numeroTelefonico506:required">Número telefónico (+506) is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="numeroTelefonico506:required">Número telefónico (+506) es requerido.</div>
                             </div>
                             <div class="form-floating mb-3">
                                 <select class="form-select" id="recursos" aria-label="Recursos">
@@ -284,11 +285,11 @@
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Mensaje envíado exitosamente</div>
                                     <p>Nos pondremos en contacto contigo lo antes posible.</p>
-                                    <p>Mientras tanto, puedes aprender más <a href="index.html">AQUÍ</a></p>
+                                    <p>Mientras tanto, puedes aprender más <a href="index.html" class="form-txt">AQUÍ</a></p>
                                 </div>
                             </div>
                             <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">Error sending message!</div>
+                                <div class="text-center text-danger mb-3">Error al enviar el mensaje, intentelo de nuevo más tarde.</div>
                             </div>
                             <div class="d-grid">
                                 <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
@@ -306,9 +307,9 @@
         <div class="container pt-5">
             <div class="row gy-5 gx-0">
                 <div class="col-lg-6 pe-lg-5 wow fadeIn" data-wow-delay="0.3s">
-                    <h1 class="display-6 text-white mb-4">What Clients Say About Our Lab Services!</h1>
-                    <p class="text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
-                    <a href="" class="btn btn-primary py-3 px-5">More Testimonials</a>
+                    <h1 class="display-6 text-white mb-4">¡Testimonios Y Experiencias De Gente Como Tú!</h1>
+                    <p class="text-white mb-5">Algunos testimonios reales de personas que han transformado sus vidas con la ayuda de Serena. Descubre cómo nuestro enfoque humano y profesional puede marcar la diferencia en tu bienestar emocional.</p>
+                    <a href="" class="btn btn-primary py-3 px-5">Más Testimonios</a>
                 </div>
                 <div class="col-lg-6 mb-n5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white p-5">
@@ -317,12 +318,12 @@
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-chat-left-quote text-dark"></i>
                                 </div>
-                                <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                                <p class="fs-5 mb-4">El ritmo del trabajo en la cocina puede ser agotador y abrumador. Serena me brindó un espacio seguro para hablar sobre mis preocupaciones y aprender técnicas para manejar el estrés. Gracias a su equipo de terapeutas, he podido recuperar mi pasión por la cocina y mi equilibrio emocional.</p>
                                 <div class="d-flex align-items-center">
                                     <img class="flex-shrink-0" src="img/testimonial-1.jpg" alt="">
                                     <div class="ps-3">
-                                        <h5 class="mb-1">Client Name</h5>
-                                        <span class="text-primary">Profession</span>
+                                        <h5 class="mb-1">Emily Johnson</h5>
+                                        <span class="text-primary">Chef</span>
                                     </div>
                                 </div>
                             </div>
@@ -330,12 +331,12 @@
                                 <div class="icon-box-primary mb-4">
                                     <i class="bi bi-chat-left-quote text-dark"></i>
                                 </div>
-                                <p class="fs-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue, iaculis id elit eget, ultrices pulvinar tortor. Quisque vel lorem porttitor, malesuada arcu quis, fringilla risus. Pellentesque eu consequat augue.</p>
+                                <p class="fs-5 mb-4">Trabajar en el sector tecnológico puede ser muy estresante. Encontré en Serena el apoyo que necesitaba para lidiar con la presión diaria. Los terapeutas me ofrecieron estrategias para gestionar el estrés y la ansiedad, y eso ha hecho una gran diferencia en mi rendimiento laboral y bienestar personal.</p>
                                 <div class="d-flex align-items-center">
                                     <img class="flex-shrink-0" src="img/testimonial-2.jpg" alt="">
                                     <div class="ps-3">
-                                        <h5 class="mb-1">Client Name</h5>
-                                        <span class="text-primary">Profession</span>
+                                        <h5 class="mb-1">David Thompson</h5>
+                                        <span class="text-primary">Ingeniero en Software</span>
                                     </div>
                                 </div>
                             </div>
