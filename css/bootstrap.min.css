@@ -29,6 +29,15 @@
 .form-txt:hover {
     color: #79799e !important;
 }
+.error-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .error-container svg {
+    width: 200px; /* Ajusta el tamaño del SVG según sea necesario */
+  }
+
+
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
