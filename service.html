@@ -132,6 +132,91 @@
     </div>
     <!-- Page Header End -->
 
+    <!-- Appoinment Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-6 mb-4">Te Aseguramos El Mejor Servicio, ¡Siempre!</h1>
+                    <p>¿Te sientes abrumado, ansioso o simplemente no eres tú mismo? No estás solo. Millones de personas luchan contra problemas de salud mental cada año. La buena noticia es que hay ayuda disponible.</p>
+                    <p class="mb-4">Aquí en Serena, conectar con profesionales de la salud mental es fácil y conveniente. Simplemente completa nuestro formulario seguro y confidencial para ponerte en contacto con un doctor que pueda brindarte la atención que necesitas para sentirte mejor.</p>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
+                        <div class="icon-box-primary">
+                            <i class="bi bi-geo-alt text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Ubicación</h5>
+                            <span>San José, Costa Rica</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">
+                        <div class="icon-box-primary">
+                            <i class="bi bi-clock text-dark fs-1"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5>Horario de Atención</h5>
+                            <span>Lunes a Sábado de 9:00 am - 5:00 p.m</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="container px-5 my-5">
+                        <form id="contactForm" data-sb-form-api-token="ba69088e-adf5-4279-bd34-dc45119a2d93">
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="nombreCompleto" type="text" placeholder="Nombre Completo" data-sb-validations="required" />
+                                <label for="nombreCompleto">Nombre Completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="nombreCompleto:required">Nombre Completo es requerido.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="correoElectronico" type="email" placeholder="Correo Electrónico" data-sb-validations="required,email" />
+                                <label for="correoElectronico">Correo Electrónico</label>
+                                <div class="invalid-feedback" data-sb-feedback="correoElectronico:required">Correo Electrónico es requerido.</div>
+                                <div class="invalid-feedback" data-sb-feedback="correoElectronico:email">El correo electrónico no es válido.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="numeroTelefonico506" type="text" placeholder="Número telefónico (+506)" data-sb-validations="required" />
+                                <label for="numeroTelefonico506">Número telefónico (+506)</label>
+                                <div class="invalid-feedback" data-sb-feedback="numeroTelefonico506:required">Número telefónico (+506) es requerido.</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="recursos" aria-label="Recursos">
+                                    <option value="TOC">TOC</option>
+                                    <option value="Ansiedad">Ansiedad</option>
+                                    <option value="Depresión">Depresión</option>
+                                    <option value="Trastornos Alimenticios">Trastornos Alimenticios</option>
+                                    <option value="Terapia de Pareja">Terapia de Pareja</option>
+                                    <option value="TDAH">TDAH</option>
+                                    <option value="Sexualidad">Sexualidad</option>
+                                    <option value="Otro (específicar)">Otro (específicar)</option>
+                                </select>
+                                <label for="recursos">Recursos</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje" style="height: 10rem;" data-sb-validations=""></textarea>
+                                <label for="mensaje">Mensaje</label>
+                            </div>
+                            <div class="d-none" id="submitSuccessMessage">
+                                <div class="text-center mb-3">
+                                    <div class="fw-bolder">Mensaje envíado exitosamente</div>
+                                    <p>Nos pondremos en contacto contigo lo antes posible.</p>
+                                    <p>Mientras tanto, puedes aprender más <a href="index.html" class="form-txt">AQUÍ</a></p>
+                                </div>
+                            </div>
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3">Error al enviar el mensaje, intentelo de nuevo más tarde.</div>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appoinment Start -->
+
     <!-- Team Start -->
     <div class="container-fluid container-team py-5">
         <div class="container pb-5">
@@ -218,91 +303,6 @@
         </div>
     </div>
     <!-- Team End -->
-
-    <!-- Appoinment Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h1 class="display-6 mb-4">Te Aseguramos El Mejor Servicio, ¡Siempre!</h1>
-                    <p>¿Te sientes abrumado, ansioso o simplemente no eres tú mismo? No estás solo. Millones de personas luchan contra problemas de salud mental cada año. La buena noticia es que hay ayuda disponible.</p>
-                    <p class="mb-4">Aquí en Serena, conectar con profesionales de la salud mental es fácil y conveniente. Simplemente completa nuestro formulario seguro y confidencial para ponerte en contacto con un doctor que pueda brindarte la atención que necesitas para sentirte mejor.</p>
-                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.3s">
-                        <div class="icon-box-primary">
-                            <i class="bi bi-geo-alt text-dark fs-1"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h5>Ubicación</h5>
-                            <span>San José, Costa Rica</span>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="d-flex align-items-start wow fadeIn" data-wow-delay="0.4s">
-                        <div class="icon-box-primary">
-                            <i class="bi bi-clock text-dark fs-1"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h5>Horario de Atención</h5>
-                            <span>Lunes a Sábado de 9:00 am - 5:00 p.m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="container px-5 my-5">
-                        <form id="contactForm" data-sb-form-api-token="ba69088e-adf5-4279-bd34-dc45119a2d93">
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="nombreCompleto" type="text" placeholder="Nombre Completo" data-sb-validations="required" />
-                                <label for="nombreCompleto">Nombre Completo</label>
-                                <div class="invalid-feedback" data-sb-feedback="nombreCompleto:required">Nombre Completo es requerido.</div>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="correoElectronico" type="email" placeholder="Correo Electrónico" data-sb-validations="required,email" />
-                                <label for="correoElectronico">Correo Electrónico</label>
-                                <div class="invalid-feedback" data-sb-feedback="correoElectronico:required">Correo Electrónico es requerido.</div>
-                                <div class="invalid-feedback" data-sb-feedback="correoElectronico:email">El correo electrónico no es válido.</div>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="numeroTelefonico506" type="text" placeholder="Número telefónico (+506)" data-sb-validations="required" />
-                                <label for="numeroTelefonico506">Número telefónico (+506)</label>
-                                <div class="invalid-feedback" data-sb-feedback="numeroTelefonico506:required">Número telefónico (+506) es requerido.</div>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <select class="form-select" id="recursos" aria-label="Recursos">
-                                    <option value="TOC">TOC</option>
-                                    <option value="Ansiedad">Ansiedad</option>
-                                    <option value="Depresión">Depresión</option>
-                                    <option value="Trastornos Alimenticios">Trastornos Alimenticios</option>
-                                    <option value="Terapia de Pareja">Terapia de Pareja</option>
-                                    <option value="TDAH">TDAH</option>
-                                    <option value="Sexualidad">Sexualidad</option>
-                                    <option value="Otro (específicar)">Otro (específicar)</option>
-                                </select>
-                                <label for="recursos">Recursos</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje" style="height: 10rem;" data-sb-validations=""></textarea>
-                                <label for="mensaje">Mensaje</label>
-                            </div>
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Mensaje envíado exitosamente</div>
-                                    <p>Nos pondremos en contacto contigo lo antes posible.</p>
-                                    <p>Mientras tanto, puedes aprender más <a href="index.html" class="form-txt">AQUÍ</a></p>
-                                </div>
-                            </div>
-                            <div class="d-none" id="submitErrorMessage">
-                                <div class="text-center text-danger mb-3">Error al enviar el mensaje, intentelo de nuevo más tarde.</div>
-                            </div>
-                            <div class="d-grid">
-                                <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Appoinment Start -->
 
     <!-- Testimonial Start -->
     <div class="container-fluid testimonial py-5">
