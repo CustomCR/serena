@@ -36,7 +36,9 @@
   .error-container svg {
     width: 200px; /* Ajusta el tamaño del SVG según sea necesario */
   }
-
+.breadcrumb-item a:hover{
+    color: #19195f;
+}
 
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
