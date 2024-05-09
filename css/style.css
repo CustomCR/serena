@@ -331,6 +331,12 @@
     background-size: cover;
 }
 
+.p-5{
+    margin-bottom: 5rem;
+    
+   
+}
+
 .page-header-corrientes {
     background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../img/banner.jpg) center center no-repeat;
     background-size: cover;
