@@ -1,11 +1,14 @@
 /*** Aprende ***/
 .card {
-    width: 300px; /* Adjust width as needed for larger screens */
+    width: 20vw; /* Adjust width as needed for larger screens */
+    height: 525px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
     margin-bottom: 4vw;
+    display: flex; /* Enable flexbox for the card */
+    flex-direction: column; /* Stack content vertically */
   }
   
   .card img {
@@ -16,6 +19,7 @@
   
   .card-content {
     padding: 20px;
+    overflow: hidden;
   }
   
   /* Media Queries for Responsive Behavior */
