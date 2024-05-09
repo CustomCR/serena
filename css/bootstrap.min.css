@@ -37,7 +37,7 @@
     width: 200px; /* Ajusta el tamaño del SVG según sea necesario */
   }
 .breadcrumb-item a:hover{
-    color: #19195f;
+    color: #19195f !important;
 }
 
 /*!
