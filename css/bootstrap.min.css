@@ -39,7 +39,9 @@
 .breadcrumb-item a:hover{
     color: #19195f !important;
 }
-
+p {
+    font-size: large;
+}
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -1493,7 +1495,7 @@ progress {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #8a91ac;
+    color: #000000;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
@@ -1517,11 +1519,11 @@ progress {
     cursor: pointer;
 }
 .form-control:focus {
-    color: #8a91ac;
+    color: #000000;
     background-color: #fff;
-    border-color: #99b4e3;
+    border-color: #C2C2FF;
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(51, 104, 198, .25);
+    box-shadow: 0 0 0 .25rem rgba(194, 194, 255, .35);
 }
 .form-control::-webkit-date-and-time-value {
     height: 1.5em;
@@ -1677,7 +1679,7 @@ textarea.form-control-lg {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #8a91ac;
+    color: #3b3b3b;
     background-color: #fff;
     background-image: url("data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
