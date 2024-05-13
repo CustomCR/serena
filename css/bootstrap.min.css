@@ -42,6 +42,9 @@
 p {
     font-size: large;
 }
+.bold-aprende span {
+    font-weight: bold;
+}
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
