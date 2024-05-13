@@ -54,16 +54,20 @@
     }
     
     #cardsize6  {
-        height: 650px;
+        height: 575px;
     }
 
     #cardsize7  {
-        height: 740px;
+        height: 575px;
     }
 
-
-    
+    #margen-parrafos {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }  
 }
+
+
   @media (min-width: 768px) {  /* Target screens wider than 768px (desktop) */
     #div-compulsiones, #margen-parrafos {
       margin-left: 4vw;
@@ -283,7 +287,7 @@
 
 @media (min-width: 992px) {
     .sticky-top {
-        margin-top: -34px;
+        margin-top: -68px;
     }
 
     .navbar {
