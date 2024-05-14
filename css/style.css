@@ -9,6 +9,8 @@
     margin-bottom: 4vw;
     display: flex; /* Enable flexbox for the card */
     flex-direction: column; /* Stack content vertically */
+    text-align: justify;
+    text-align: center;
   }
   
   .card img {
@@ -21,17 +23,84 @@
     padding: 20px;
     overflow: hidden;
   }
+
+ .text-center, .p    {
+    text-align: justify;
+  }
   
   /* Media Queries for Responsive Behavior */
   @media (max-width: 768px) {
     .card {
       width: 90%; /* Adjust width for smaller screens */
     }
-  }
+
+    #cardsize1  {
+        height: 500px;
+    }
+    #cardsize2  {
+        height: 565px;
+    }
+
+    #cardsize3  {
+        height: 425px;
+    }
+
+    #cardsize4  {
+        height: 425px;
+    }
+
+    #cardsize5  {
+        height: 535px;
+    }
+    
+    #cardsize6  {
+        height: 575px;
+    }
+
+    #cardsize7  {
+        height: 575px;
+    }
+
+    #margen-parrafos {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }  
+}
+
+
   @media (min-width: 768px) {  /* Target screens wider than 768px (desktop) */
     #div-compulsiones, #margen-parrafos {
       margin-left: 4vw;
       margin-right: 4vw;
+    }
+    #cardsize1  {
+        width: 21vw; /* Adjust width as needed for larger screens */
+        height: 500px;
+    }
+    #cardsize2  {
+        width: 21vw; /* Adjust width as needed for larger screens */
+        height: 585px;
+    }
+    #cardsize3  {
+        width: 21vw; /* Adjust width as needed for larger screens */
+        height: 400px;
+    }
+
+    #cardsize4  {
+        width: 21vw; /* Adjust width as needed for larger screens */
+        height: 440px;
+    }
+    #cardsize5  {
+        width: 21vw; /* Adjust width as needed for larger screens */
+        height: 540px;
+    }
+
+    #cardsize6  {
+        height: 650px;
+    }
+
+    #cardsize7  {
+        height: 625px;
     }
   }
 
@@ -218,7 +287,7 @@
 
 @media (min-width: 992px) {
     .sticky-top {
-        margin-top: -34px;
+        margin-top: -68px;
     }
 
     .navbar {
