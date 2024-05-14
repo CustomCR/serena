@@ -102,6 +102,92 @@
     #cardsize7  {
         height: 625px;
     }
+    
+    #cardspace  {
+    width: 21vw; /* Adjust width as needed for larger screens */
+    height: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    margin-left: 57%;
+    margin-bottom: 4vw;
+    display: flex; /* Enable flexbox for the card */
+    flex-direction: column; /* Stack content vertically */
+    text-align: justify;
+    text-align: center;
+    }
+    #cardspace2  {
+        width: 21vw; /* Adjust width as needed for larger screens */
+        height: 500px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+        margin: 0 auto;
+        margin-right: 57%;
+        margin-bottom: 4vw;
+        display: flex; /* Enable flexbox for the card */
+        flex-direction: column; /* Stack content vertically */
+        text-align: justify;
+        text-align: center;
+        }
+
+        #cardspace3  {
+            width: 21vw; /* Adjust width as needed for larger screens */
+            height: 585px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+            margin: 0 auto;
+            margin-left: 57%;
+            margin-bottom: 4vw;
+            display: flex; /* Enable flexbox for the card */
+            flex-direction: column; /* Stack content vertically */
+            text-align: justify;
+            text-align: center;
+            }
+
+            #cardspace4  {
+                width: 21vw; /* Adjust width as needed for larger screens */
+                height: 585px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+                margin: 0 auto;
+                margin-right: 57%;
+                margin-bottom: 4vw;
+                display: flex; /* Enable flexbox for the card */
+                flex-direction: column; /* Stack content vertically */
+                text-align: justify;
+                text-align: center;
+                }
+            #cardspace5 {
+                height: 625px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+                margin: 0 auto;
+                margin-left: 50%;
+                margin-bottom: 4vw;
+                display: flex; /* Enable flexbox for the card */
+                flex-direction: column; /* Stack content vertically */
+                text-align: justify;
+                text-align: center;
+            }
+
+            #cardspace6 {
+                height: 625px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+                margin: 0 auto;
+                margin-right: 50%;
+                margin-bottom: 4vw;
+                display: flex; /* Enable flexbox for the card */
+                flex-direction: column; /* Stack content vertically */
+                text-align: justify;
+                text-align: center;
+            }
   }
 
 #div-toc-img {
