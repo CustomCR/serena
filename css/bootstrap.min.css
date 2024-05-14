@@ -17,6 +17,7 @@
 }
 .main-logo {
     transition: transform 0.5s ease; /* Agrega una transición suave para que el zoom sea gradual */
+    margin-bottom: 0rem;
 }
 
 .main-logo:hover {
